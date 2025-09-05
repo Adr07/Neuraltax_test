@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 14px;
+}
+body { @apply bg-surface text-primary-700 antialiased; }
+.container-nx { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-white shadow-card rounded-[var(--radius)] p-6; }
+.btn { @apply inline-flex items-center justify-center rounded-[var(--radius)] px-5 py-3 font-semibold; }
+.btn-primary { @apply bg-brand-green text-white hover:opacity-90; }
+.btn-ghost { @apply border border-primary-600 text-primary-600 hover:bg-surface-200; }
+.badge { @apply text-xs font-semibold rounded-full px-3 py-1 bg-surface-200 text-primary-700; }
