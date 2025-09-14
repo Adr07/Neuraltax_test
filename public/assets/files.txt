@@ -1,0 +1,18 @@
+﻿G-AE.png
+G-BMP.png
+G-EE.png
+G-ER.png
+G-FV.png
+G-Ih.png
+G-KGHNG.png
+G-neutra 2.png
+G-Oh.png
+G-ojos cerrados.png
+G-ojos semiabiertos.png
+G-R.png
+G-SZ.png
+G-Th.png
+G-THDLN.png
+G-V.png
+G-WO.png
+G1 neutra.png

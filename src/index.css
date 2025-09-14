@@ -8,7 +8,9 @@
 body { @apply bg-surface text-primary-700 antialiased; }
 .container-nx { @apply max-w-6xl mx-auto px-4; }
 .card { @apply bg-white shadow-card rounded-[var(--radius)] p-6; }
-.btn { @apply inline-flex items-center justify-center rounded-[var(--radius)] px-5 py-3 font-semibold; }
+/* Enhance base button styles with focus and disabled states */
+.btn { @apply inline-flex items-center justify-center rounded-[var(--radius)] px-5 py-3 font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-green/40 disabled:opacity-50 disabled:cursor-not-allowed; }
 .btn-primary { @apply bg-brand-green text-white hover:opacity-90; }
+.btn-secondary { @apply bg-brand-blue text-white hover:opacity-90; }
 .btn-ghost { @apply border border-primary-600 text-primary-600 hover:bg-surface-200; }
 .badge { @apply text-xs font-semibold rounded-full px-3 py-1 bg-surface-200 text-primary-700; }
